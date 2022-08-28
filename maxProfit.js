@@ -1,3 +1,19 @@
+
+const input1={
+    time: 7,
+    earning:3000
+}
+
+const input2={
+    time: 8,
+    earning:4500
+}
+
+const input3={
+    time: 13,
+    earning:16500
+}
+
 const maxProfit = (operation) => {
     let finalOutcome = []
     const ventures = [{name:'T', earning:1500, buildTime:5}, {name:'P', earning:1000, buildTime:4}, {name:'C', earning:3000, buildTime:10}]
@@ -25,3 +41,6 @@ const maxProfit = (operation) => {
     console.log(finalOutcome)
     return finalOutcome
 }
+maxProfit(input1);
+maxProfit(input2);
+maxProfit(input3);
