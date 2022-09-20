@@ -38,6 +38,7 @@ const maxProfit = (operation) => {
             }
         }
     }
+    console.log(finalOutcome);
     return finalOutcome
 }
 maxProfit(input1);
